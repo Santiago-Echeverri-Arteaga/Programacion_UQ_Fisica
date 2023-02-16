@@ -1,0 +1,9 @@
+# Presentaciones en desarrollo
+*.key
+*.pptx
+# Archivos del MAC
+.DS_Store
+.AppleDouble
+.LSOverride
+# Jupyter Notebook
+.ipynb_checkpoints
