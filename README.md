@@ -1,6 +1,6 @@
 # Mi primer repositorio
 
-## Santiago Echeverri Arteaga
+### Santiago Echeverri Arteaga
 
 Hola Mundo!
 
