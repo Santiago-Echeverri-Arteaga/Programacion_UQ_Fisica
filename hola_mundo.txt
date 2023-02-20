@@ -1,2 +1,2 @@
-Hola Git desde Test2! master
-Nueva linea
+Hola Git Solucionado
+Nueva linea corregida
