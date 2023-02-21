@@ -1,0 +1,8 @@
+virtualenv==20.17.1
+pytest==7.2.1
+pylint==2.15.10
+numpy==1.24.1
+matplotlib==3.6.3
+matplotlib-inline==0.1.6
+scipy==1.10.0
+pandas==1.5.3
