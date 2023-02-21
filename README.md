@@ -24,7 +24,7 @@ Recuerde que para el curso deberá tener instalado los [**compiladores de Python
 
 1. [VSCode](https://youtu.be/Ei1y51K8jQk)
 2. [Git Tutorial *Hola Mundo*](https://youtu.be/VdGzPZ31ts8)
-3. [Git Tutorial](https://www.youtube.com/watch?v=zH3I1DZNovk&list=PL9xYXqvLX2kMUrXTvDY6GI2hgacfy0rId)
+3. [Git Tutorial *codigofacilito*](https://www.youtube.com/watch?v=zH3I1DZNovk&list=PL9xYXqvLX2kMUrXTvDY6GI2hgacfy0rId)
 
 Ya teniendo instalado lo anterior, proceda a abrir una terminal de GIT BASH y copie el siguiente código
 
