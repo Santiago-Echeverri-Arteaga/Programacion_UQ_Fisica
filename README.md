@@ -18,13 +18,13 @@ Este GitHub es contiene el material de apoyo del curso Programación orientado e
 3. Programación orientada a objetos y librerías
 4. Programación para la física
 
-El sílabo del curso lo pueden revisar en el siguente [https://github.com/Santiago-Echeverri-Arteaga/Programacion_UQ_Fisica/blob/master/silabo_programacion.pdf](LINK). En el mismo encontrarán el material bibliográfico recomendado para el curso. Al cual pueden acceder desde el siguente enlace [https://1drv.ms/u/s!AvgPrG5g0hS9geYeVJN97X8LEwTkiQ?e=f4NW5x](LINK).
+El sílabo del curso lo pueden revisar en el siguente [LINK](https://github.com/Santiago-Echeverri-Arteaga/Programacion_UQ_Fisica/blob/master/silabo_programacion.pdf). En el mismo encontrarán el material bibliográfico recomendado para el curso. Al cual pueden acceder desde el siguente enlace [LINK](https://1drv.ms/u/s!AvgPrG5g0hS9geYeVJN97X8LEwTkiQ?e=f4NW5x).
 
-Recuerde que para el curso deberá tener instalado los [https://www.python.org/downloads/](**compiladores de Python**) [https://code.visualstudio.com/download](**Visual Studio Code**) y el [https://git-scm.com/downloads](**GIT BASH**). Si desea complementar el contenido dado en el aula de clase, puede revisar el siguiente material audiovisual concerniente al manejo de VSCode y Git:
+Recuerde que para el curso deberá tener instalado los [**compiladores de Python**](https://www.python.org/downloads/), [**Visual Studio Code**](https://code.visualstudio.com/download) y el [**GIT BASH**](https://git-scm.com/downloads). Si desea complementar el contenido dado en el aula de clase, puede revisar el siguiente material audiovisual concerniente al manejo de VSCode y Git:
 
-1. [https://youtu.be/Ei1y51K8jQk](VSCode)
-2. [https://youtu.be/VdGzPZ31ts8](Git Tutorial *Hola Mundo*)
-3. [https://www.youtube.com/watch?v=zH3I1DZNovk&list=PL9xYXqvLX2kMUrXTvDY6GI2hgacfy0rId](Git Tutorial)
+1. [VSCode](https://youtu.be/Ei1y51K8jQk)
+2. [Git Tutorial *Hola Mundo*](https://youtu.be/VdGzPZ31ts8)
+3. [Git Tutorial](https://www.youtube.com/watch?v=zH3I1DZNovk&list=PL9xYXqvLX2kMUrXTvDY6GI2hgacfy0rId)
 
 Ya teniendo instalado lo anterior, proceda a abrir una terminal de GIT BASH y copie el siguiente código
 
