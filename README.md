@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Programación</h1>
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nextibs.com%2Fnoticias%2F5-consejos-para-mejorar-tu-programacion-informatica%2F&psig=AOvVaw2q6Q7JYnWNkxZ4yV9f6rAm&ust=1677070093068000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCODQhIvTpv0CFQAAAAAdAAAAABAE" alt="Imagen de un tablero con ecuaciones matemáticas y un robot frente a él de lado pensando"
+<img src="https://www.nextibs.com/wp-content/uploads/2021/12/seguridad-informatica-2048x877.jpeg.webp" alt="Imagen con una pantalla digital y una mano acercansose a tocarla"
      width="768"
      height="329">
 </div>
