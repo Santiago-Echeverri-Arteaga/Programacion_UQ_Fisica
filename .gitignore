@@ -6,3 +6,5 @@
 .LSOverride
 # Jupyter Notebook
 .ipynb_checkpoints
+# Entorno virtual
+entornoVirtual/
