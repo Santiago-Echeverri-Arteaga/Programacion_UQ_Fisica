@@ -10,6 +10,18 @@ class vector:
     def __add__(self, other):
         respuesta = vector(self.x+other.x, self.y+other.y)
         return(respuesta)
-V1= vector(1,2)
-V2= vector(3,4)
-print(V1+V2+V1+V2+V2)
+    def __mul__(self,otro):
+        if (type(otro)==type(self)):
+            return(3)
+        else:
+            return(2)
+    def __rmul__(self,otro):
+        if (type(otro)==type(self)):
+            return(3)
+        else:
+            return(2)
+V1= vector(1.2,2.2)
+V2= vector(3.1,4.2)
+##print(V1+V2+V1+V2+V2)
+print(1000*V2)
+print(V2*V1)
