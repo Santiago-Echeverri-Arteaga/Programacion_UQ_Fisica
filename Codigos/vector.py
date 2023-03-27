@@ -1,4 +1,11 @@
+"""
+_summary_
+
+Returns:
+    _type_: _description_
+"""
 class matriz:
+    """La clase matriz ...."""
     def __init__(self, valores):
         self.valores = valores
         n = len(valores)
@@ -15,6 +22,7 @@ class matriz:
             respuesta = respuesta + self._imprimir_vector_(self.shape[0]-1)
             return(respuesta)
     def _imprimir_vector_(self,fila):
+        """Imprimir vector"""
         respuesta = "|"
         for i in range(self.shape[1]-1):
             respuesta = respuesta + str(self.valores[fila][i])
@@ -46,7 +54,43 @@ class matriz:
             return(3)
         else:
             return(2)
-V1= matriz([[1,2,3, 5, 690, 0],[100,200,300, 500, 600, 0]])
-V2= matriz([[10,20,30, 0, 10, 30],[11,21,31, 0, 10, 30]])
-#print(type(V1+V2))
-print(V1+V2)
+    def __call__(self, masa):
+        a = [self.valores[0][0]/masa, self.valores[0][1]/masa]
+        return(a)
+
+def ingresa_vector(N):
+    """
+    Este es un método que recibe un entero N que corresoponde a la dimension de un vector,
+    interactúa con el usuario para solicitarle esa cantidad de valores y finalmente retorna
+    el vector.
+    
+    >>> Vec = ingresa_vector()
+    """
+    Lista = []
+    for i in range(N):
+        Lista.append(eval(input("Ingrese valor V_{0} del vector: ".format(i))))
+    return matriz([Lista])
+       
+
+def main():
+    N = int(input("Ingrese numero filas: "))
+    V_1 = ingresa_vector(N)
+    V_2 = ingresa_vector(N)
+    resultante = V_1 + V_2
+    m = 2
+    print("Aceleracion",resultante(m))
+    #print("V2",V2())
+    print()
+    #V2= matriz([L_2])
+    #print(type(V1+V2))
+    #print(V1+V2)
+
+def print_funcion(x,f):
+    print(f(x))
+
+#import math
+#A = 10
+#w = 3*math.pi/2
+#f = math.pi/2
+#print_funcion(1,lambda t:A*math.sin(w*t+f))
+main()
