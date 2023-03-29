@@ -4,6 +4,8 @@ _summary_
 Returns:
     _type_: _description_
 """
+from string import punctuation
+import random
 class matriz:
     """La clase matriz ...."""
     def __init__(self, valores):
@@ -88,9 +90,23 @@ def main():
 def print_funcion(x,f):
     print(f(x))
 
+def palabra_a_vector(palabra:str):
+    for i in punctuation:
+        palabra = palabra.replace(i,"")
+    tildes = "áéíóúÁÉÍÓÚ"
+    for i in range(len(tildes)):
+        palabra = palabra.replace(tildes[i],"aeiouAEIOU"[i])
+    palabra = palabra.split()
+    vector = []
+    for i in palabra:
+        vector.append(len(i))
+    return(vector)
+
+
 #import math
 #A = 10
 #w = 3*math.pi/2
 #f = math.pi/2
 #print_funcion(1,lambda t:A*math.sin(w*t+f))
-main()
+#main()
+print(palabra_a_vector("Ésta: Mi. palabra;{"))

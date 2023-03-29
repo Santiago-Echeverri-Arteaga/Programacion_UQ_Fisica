@@ -8,3 +8,9 @@
 .ipynb_checkpoints
 # Entorno virtual
 entornoVirtual/
+# Archivo grande
+*.txt
+*.csv
+#
+__pycache__/
+__pycache__
