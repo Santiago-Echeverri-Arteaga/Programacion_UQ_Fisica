@@ -4,6 +4,7 @@ def log(fichero_log):
             with open(fichero_log, 'a') as opened_file:
                 output = func(*args, **kwargs)
                 opened_file.write(f"{output}\n")
+                return output   # SI ESTA LINEA NO ESTÁ LA FUNCIÓN DECORADA NO RETORNA NADA!!!!
         return decorador_funcion
     return decorador_log
 
