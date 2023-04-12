@@ -19,6 +19,7 @@ def resta(a, b):
 def multiplicadivide(a, b, c):
     return a*b/c
 
-suma(10, 30)
-resta(7, 23)
-multiplicadivide(5, 10, 2)
+a=suma(10, 30)
+b=resta(7, 23)
+c=multiplicadivide(5, 10, 2)
+print(a,b,c)

@@ -23,7 +23,7 @@ def requiere_autenticación(f):
     return funcion_decorada
 
 
-autenticado = True
+autenticado = False
 
 @star
 @percent
