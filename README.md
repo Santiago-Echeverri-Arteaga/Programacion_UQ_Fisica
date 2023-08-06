@@ -33,3 +33,10 @@ pip install requirements.txt
 ```
 
 Esto procederá a instalar todas las librerías necesarias. Se le recomienda al estudiante hacerle un Fork al repositorio o un clone para poder mantenerse actualizado con el material que se irá subiendo paulatinamente.
+
+<h2>Esquema de clases</h2>
+
+<h2>Tareas</h2>
+1. Explique una de las áreas de la programación (La que seleccionó a partir de la respuesta de CharGPT sobre las principales N áreas de la programación)
+2. Lea un artículo actual (Q1 o Q2) en el área de la física que esté relacionado con el desarrollo de nuevos computadores (clásicos o cuánticos) y realice un prqueño resumen.
+3. 
