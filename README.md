@@ -35,17 +35,18 @@ pip install requirements.txt
 Esto procederá a instalar todas las librerías necesarias. Se le recomienda al estudiante hacerle un Fork al repositorio o un clone para poder mantenerse actualizado con el material que se irá subiendo paulatinamente.
 
 <h2>Esquema de clases</h2>
+
 1. Primera Clase
 2. ¿Cómo funciona mi computador?
 3. Git/GitHub
-4.1 Tipo de datos
-4.2 Programación orientada a objetos
+4.  Tipo de datos y Programación orientada a objetos
 5. Interacción con el usuario, funciones y métodos
 6. Métodos mágicos
 7. Condicionales y  flujo
 8. Práctica de condicionales y flujo (Taller)
 
 <h2>Tareas</h2>
+
 1. Explique una de las áreas de la programación (La que seleccionó a partir de la respuesta de CharGPT sobre las principales N áreas de la programación)
 2. Revise la [lista de reproducción de código facilito sobre git/GitHub](https://www.youtube.com/watch?v=zH3I1DZNovk&list=PL9xYXqvLX2kMUrXTvDY6GI2hgacfy0rId) y traiga preguntas para la próxima clase
 3. Cree su repositorio con un archivo README.md con código markdown, el .gitignore y una carpeta que se llame tareas, en donde subirá las tareas debidamente nombradas, incluída la antepasada.
