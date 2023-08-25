@@ -36,18 +36,22 @@ Esto procederá a instalar todas las librerías necesarias. Se le recomienda al 
 
 <h2>Esquema de clases</h2>
 
-1. Primera Clase
-2. ¿Cómo funciona mi computador?
-3. Git/GitHub
-4.  Tipo de datos y Programación orientada a objetos
-5. Interacción con el usuario, funciones y métodos
-6. Métodos mágicos
-7. Condicionales y  flujo
-8. Práctica de condicionales y flujo (Taller)
+1. 09-ago-23 | Primera Clase
+2. 11-ago-23 | ¿Cómo funciona mi computador?
+3. 14-ago-23 | GitHub
+4. 16-ago-23 | Git + GitHub
+5. 18-ago-23 | Tipo de datos y Programación orientada a objetos
+6. 21-ago-23 | Interacción con el usuario, funciones y métodos
+7. 23-ago-23 | Métodos mágicos
+8. 25-ago-23 | Condicionales y  flujo
+9. 28-ago-23 | Práctica de condicionales y flujo (Taller)
 
 <h2>Tareas</h2>
 
-1. Explique una de las áreas de la programación (La que seleccionó a partir de la respuesta de CharGPT sobre las principales N áreas de la programación)
-2. Revise la [lista de reproducción de código facilito sobre git/GitHub](https://www.youtube.com/watch?v=zH3I1DZNovk&list=PL9xYXqvLX2kMUrXTvDY6GI2hgacfy0rId) y traiga preguntas para la próxima clase
-3. Cree su repositorio con un archivo README.md con código markdown, el .gitignore y una carpeta que se llame tareas, en donde subirá las tareas debidamente nombradas, incluída la antepasada.
-4. Suba los ejercicios realizados en clase
+La fecha que aparece al lado izquierdo de la tarea corresponde a la fecha para la que tiene que estar subida al GitHub (o finalizada la tarea en caso de no necesitar evidencia)
+
+1. 18-ago-23 | Explique una de las áreas de la programación (La que seleccionó a partir de la respuesta de CharGPT sobre las principales N áreas de la programación)
+2. 14-ago-23 | Revise la [lista de reproducción de código facilito sobre git/GitHub](https://www.youtube.com/watch?v=zH3I1DZNovk&list=PL9xYXqvLX2kMUrXTvDY6GI2hgacfy0rId) y traiga preguntas para la próxima clase (**Se toma como tema visto**)
+3. Ninguna
+4. 18-ago-23 | Cree su repositorio con un archivo README.md con código markdown, el .gitignore y una carpeta que se llame tareas, en donde subirá las tareas debidamente nombradas, incluída la antepasada.
+5. 21-ago-23 | Suba los ejercicios realizados en clase
