@@ -42,8 +42,8 @@ Esto procederá a instalar todas las librerías necesarias. Se le recomienda al 
 4. 16-ago-23 | Git + GitHub
 5. 18-ago-23 | Tipo de datos y Programación orientada a objetos
 6. 21-ago-23 | Interacción con el usuario, funciones y métodos
-7. 23-ago-23 | Métodos mágicos
-8. 25-ago-23 | Condicionales y  flujo
+7. 23-ago-23 | print, input, clases, instroducción a métodos y métodos mágicos
+8. 25-ago-23 | Condicionales y  Métodos mágicos
 9. 28-ago-23 | Práctica de condicionales y flujo (Taller)
 
 <h2>Tareas</h2>
