@@ -48,7 +48,10 @@ Esto procederá a instalar todas las librerías necesarias. Se le recomienda al 
 10. 01-sep-23 | Ciclos for y while
 11. 04-sep-23 | Listas, cadenas, diccionarios, tuplas
 12. 06-sep-23 | Funciones, *args, **kwargs
-13. 08-sep-23 | Taller
+13. 08-sep-23 | Recursividad
+14. 11-sep-23 | Taller
+15. 13-sep-23 | Taller
+16. 15-sep-23 | Parcial 1
 
 <h2>Tareas</h2>
 
