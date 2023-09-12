@@ -52,6 +52,8 @@ Esto procederá a instalar todas las librerías necesarias. Se le recomienda al 
 14. 11-sep-23 | Taller
 15. 13-sep-23 | Taller
 16. 15-sep-23 | Parcial 1
+17. 18-sep-23 | Manejo de excepciones
+18. 20-sep-23 | Generadores y conjuntos
 
 <h2>Tareas</h2>
 
@@ -64,3 +66,4 @@ La fecha que aparece al lado izquierdo de la tarea corresponde a la fecha para l
 5. 21-ago-23 | Suba los ejercicios realizados en clase
 6. 06-sep-23 | Suba el taller
 7. 11-sep-23 | Suba un código donde implemente una clase con métodos mágicos, use *args y **kwargs en funciones y métodos, tenga al menos dos ciclos, tres condicionales y use métodos especiales de diccionarios listas y cadenas
+8. 18-sep-23 | Taller: Ejercicios Recursividad y Manejo de excepciones
