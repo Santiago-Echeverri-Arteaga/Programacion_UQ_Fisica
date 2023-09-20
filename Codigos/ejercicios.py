@@ -22,23 +22,23 @@ def weeks_elapsed(day1, day2):
 #########################################
 #########################################
 #########################################
-alkaline_earth_metals = [
-    [4, 9.012],
-    [12, 24.305],
-    [20, 40.078],
-    [38, 87.62],
-    [56, 137.327],
-    [88, 226]
-]
-for element in alkaline_earth_metals:
-    atomic_number, atomic_weight = element
-    print(f"Atomic Number: {atomic_number}, Atomic Weight: {atomic_weight}")
-number_and_weight = []
+# alkaline_earth_metals = [
+#     [4, 9.012],
+#     [12, 24.305],
+#     [20, 40.078],
+#     [38, 87.62],
+#     [56, 137.327],
+#     [88, 226]
+# ]
+# for element in alkaline_earth_metals:
+#     atomic_number, atomic_weight = element
+#     print(f"Atomic Number: {atomic_number}, Atomic Weight: {atomic_weight}")
+# number_and_weight = []
 
-for element in alkaline_earth_metals:
-    number_and_weight.extend(element)
+# for element in alkaline_earth_metals:
+#     number_and_weight.extend(element)
 
-print(number_and_weight)
+# print(number_and_weight)
 #########################################
 #########################################
 #########################################
@@ -70,5 +70,5 @@ while rat_1_weight < (1 + target_increase) * rat_2_weight:
     weeks += 1
 
 print(f"It will take {weeks} weeks for rat 1 to be 10% heavier than rat 2.")
-###############
+# ###############
 
