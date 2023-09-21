@@ -53,8 +53,13 @@ Esto procederá a instalar todas las librerías necesarias. Se le recomienda al 
 15. 13-sep-23 | Taller
 16. 15-sep-23 | Parcial 1
 17. 18-sep-23 | Manejo de excepciones
-18. 20-sep-23 | Generadores, funciones decoradas y conjuntos
-19. 22-sep-23 | Numpy
+18. 20-sep-23 | [Generadores, y conjuntos](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=e971784274012cf2e0b8d92a557eb072) *Contraseña video de clase:* Programacion1
+19. 22-sep-23 | [funciones decoradas y Numpy](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=69fb539befdd43b6c1ea6f498c9ded27) *Contraseña video de clase:* Programacion1
+20. 25-sep-23 | Numpy y gestión de archivos en el disco duro (Numpy y Python)
+21. 27-sep-23 | Pandas
+22. 29-sep-23 | Pandas
+23. 02-oct-23 | SciPy y Sympy
+24. 04-oct-23 | Matplotlib
 
 <h2>Tareas</h2>
 
@@ -65,7 +70,8 @@ La fecha que aparece al lado izquierdo de la tarea corresponde a la fecha para l
 3. Ninguna
 4. 18-ago-23 | Cree su repositorio con un archivo README.md con código markdown, el .gitignore y una carpeta que se llame tareas, en donde subirá las tareas debidamente nombradas, incluída la antepasada.
 5. 21-ago-23 | Suba los ejercicios realizados en clase
-6. 06-sep-23 | Suba el taller
-7. 11-sep-23 | Suba un código donde implemente una clase con métodos mágicos, use *args y **kwargs en funciones y métodos, tenga al menos dos ciclos, tres condicionales y use métodos especiales de diccionarios listas y cadenas
-8. 18-sep-23 | Taller: Ejercicios Recursividad y Manejo de excepciones
-9. 20-sep-23 | Resumen de lo que son los decoradores en Python y un ejemplo
+8. 06-sep-23 | Suba el taller
+9. 11-sep-23 | Suba un código donde implemente una clase con métodos mágicos, use *args y **kwargs en funciones y métodos, tenga al menos dos ciclos, tres condicionales y use métodos especiales de diccionarios listas y cadenas
+10. 18-sep-23 | Taller: Ejercicios Recursividad y Manejo de excepciones
+11. 20-sep-23 | Resumen de lo que son los decoradores en Python y un ejemplo
+12. 22-sep-23 | Suba un ejemplo donde use la librería itertools y cree un generador. Esto estructurado con lo que ya veníamos trabajando en el curso y enfocado a resolver un problema de física o de matemáticas
