@@ -55,11 +55,12 @@ Esto procederá a instalar todas las librerías necesarias. Se le recomienda al 
 17. 18-sep-23 | Manejo de excepciones
 18. 20-sep-23 | [Generadores, y conjuntos](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=e971784274012cf2e0b8d92a557eb072) *Contraseña video de clase:* Programacion1
 19. 22-sep-23 | [funciones decoradas y Numpy](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=69fb539befdd43b6c1ea6f498c9ded27) *Contraseña video de clase:* Programacion1
-20. 25-sep-23 | Numpy y gestión de archivos en el disco duro (Numpy y Python)
-21. 27-sep-23 | Pandas
+20. 25-sep-23 | [Numpy y gestión de archivos en el disco duro (Numpy y Python)](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=5a95007abc44e9fe08ea8a943dcae7ec) *Contraseña video de clase:* Programacion1
+21. 27-sep-23 | Numpy
 22. 29-sep-23 | Pandas
-23. 02-oct-23 | SciPy y Sympy
-24. 04-oct-23 | Matplotlib
+23. 02-oct-23 | Pandas
+24. 04-oct-23 | SciPy y Sympy
+25. 06-oct-23 | Matplotlib
 
 <h2>Tareas</h2>
 
