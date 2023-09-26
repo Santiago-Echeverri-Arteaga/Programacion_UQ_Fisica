@@ -4,6 +4,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+.env
 # Jupyter Notebook
 .ipynb_checkpoints
 # Entorno virtual
