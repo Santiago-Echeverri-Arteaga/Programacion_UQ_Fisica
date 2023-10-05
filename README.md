@@ -77,3 +77,4 @@ La fecha que aparece al lado izquierdo de la tarea corresponde a la fecha para l
 11. 20-sep-23 | Resumen de lo que son los decoradores en Python y un ejemplo
 12. 22-sep-23 | Suba un ejemplo donde use la librería itertools y cree un generador. Esto estructurado con lo que ya veníamos trabajando en el curso y enfocado a resolver un problema de física o de matemáticas
 13. 09-oct-23 | Resuelva el Taller_Programación_2023___Generadores_CPU.pdf subido en el repositorio y suba su solución en una carpeta llamada Taller Generadores
+14. 13-Oct-23 | Resuelva el Taller___Programación_2023___Pandas.pdf subido en el repositorio y suba su solución en una carpeta llamada Taller Pandas
