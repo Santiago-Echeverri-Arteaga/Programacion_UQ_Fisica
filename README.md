@@ -60,7 +60,10 @@ Esto procederá a instalar todas las librerías necesarias. Se le recomienda al 
 22. 29-sep-23 | [Pandas](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=1b2b3e2366f631aa7ea955bcae7f4c7f) *Contraseña video de clase:* Programacion1
 23. 02-oct-23 | [Pandas](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=a0e82cde078f52f7ef899f2f01a53c48) *Contraseña video de clase:* Programacion1
 24. 04-oct-23 | [Pandas](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=9ccdc9b8c95545ac75ae8f4170229c05) *Contraseña video de clase:* Programacion1
-25. 06-oct-23 | Pandas
+25. 06-oct-23 | [Pandas](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=6797697d7d0a5c9e99a001671133f6da) *Contraseña video de clase:* Programacion1
+26. 23-oct-23 | Revisión taller
+27. 25-oct-23 | Revisión taller
+28. 27-oct-23 | Revisión taller
 
 <h2>Tareas</h2>
 
@@ -77,4 +80,4 @@ La fecha que aparece al lado izquierdo de la tarea corresponde a la fecha para l
 11. 20-sep-23 | Resumen de lo que son los decoradores en Python y un ejemplo
 12. 22-sep-23 | Suba un ejemplo donde use la librería itertools y cree un generador. Esto estructurado con lo que ya veníamos trabajando en el curso y enfocado a resolver un problema de física o de matemáticas
 13. 09-oct-23 | Resuelva el Taller_Programación_2023___Generadores_CPU.pdf subido en el repositorio y suba su solución en una carpeta llamada Taller Generadores
-14. 13-Oct-23 | Resuelva el Taller___Programación_2023___Pandas.pdf subido en el repositorio y suba su solución en una carpeta llamada Taller Pandas
+14. 20-Oct-23 | Resuelva el Taller___Programación_2023___Pandas.pdf subido en el repositorio y suba su solución en una carpeta llamada Taller Pandas
