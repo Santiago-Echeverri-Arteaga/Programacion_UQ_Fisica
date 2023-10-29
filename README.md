@@ -64,6 +64,9 @@ Esto procederá a instalar todas las librerías necesarias. Se le recomienda al 
 26. 23-oct-23 | Revisión taller
 27. 25-oct-23 | Revisión taller
 28. 27-oct-23 | Revisión taller
+29. Hasta el 27-Oct-23 | Revisión pandas
+30. 30-Oct-23 | Sympy, Matplotlib, Scipy
+31. 1-Nov-23 | Sympy, Matplotlib, Scipy
 
 <h2>Tareas</h2>
 
@@ -81,3 +84,4 @@ La fecha que aparece al lado izquierdo de la tarea corresponde a la fecha para l
 12. 22-sep-23 | Suba un ejemplo donde use la librería itertools y cree un generador. Esto estructurado con lo que ya veníamos trabajando en el curso y enfocado a resolver un problema de física o de matemáticas
 13. 09-oct-23 | Resuelva el Taller_Programación_2023___Generadores_CPU.pdf subido en el repositorio y suba su solución en una carpeta llamada Taller Generadores
 14. 20-Oct-23 | Resuelva el Taller___Programación_2023___Pandas.pdf subido en el repositorio y suba su solución en una carpeta llamada Taller Pandas
+15. 2-Nov-23 | Resuelva el Taller_PANDAS.pdf subido en el repositorio
