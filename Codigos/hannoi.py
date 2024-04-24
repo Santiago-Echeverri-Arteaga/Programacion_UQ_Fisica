@@ -12,3 +12,4 @@ torres_hanoi.count=0
 n = int(input("Ingrese el número de discos: "))
 torres_hanoi(n, 'A', 'B', 'C')
 print(f"Número de movimientos requeridos {torres_hanoi.count}")
+
