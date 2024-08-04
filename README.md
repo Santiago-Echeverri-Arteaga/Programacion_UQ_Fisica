@@ -11,77 +11,258 @@
 
 **Docente:** *Ph.D. Santiago Echeverri Arteaga*
 
-Este GitHub es contiene el material de apoyo del curso Programación orientado en el programa de física en la Universidad del Quindío como dentro del núcleo profesionalizante. Esta es una asignatura teórico-práctica de 3 créditos y con 6 horas semanales de clase. Su propósito es introducir al estudiante de física en el mundo de la programación científica en el contexto del siglo XXI. El curso consta de las siguientes unidades:
+# Curso de Programación en Python para Físicos
 
-1. Fundamentos de la computación
-2. Python y Algoritmia
-3. Programación orientada a objetos y librerías
-4. Programación para la física
+## Descripción del Curso
+La asignatura se centrará en la aplicación de Python a problemas de la física y la ciencia de datos, con un enfoque en proyectos prácticos. Los estudiantes aprenderán programación orientada a objetos desde el inicio, junto con el uso de bibliotecas científicas y herramientas de manejo de datos.
 
-El sílabo del curso lo pueden revisar en el siguente [LINK](https://github.com/Santiago-Echeverri-Arteaga/Programacion_UQ_Fisica/blob/master/silabo_programacion.pdf). En el mismo encontrarán el material bibliográfico recomendado para el curso. Al cual pueden acceder desde el siguente enlace [LINK](https://1drv.ms/u/s!AvgPrG5g0hS9geYeVJN97X8LEwTkiQ?e=f4NW5x).
+## Objetivos del Curso
+1. Introducir a los estudiantes en la programación orientada a objetos con Python.
+2. Desarrollar habilidades en el uso de bibliotecas científicas como NumPy, SciPy, y Matplotlib.
+3. Enseñar técnicas de manejo y análisis de datos utilizando Pandas.
+4. Aplicar conocimientos de programación y bases de datos a proyectos prácticos.
+5. Capacitar a los estudiantes en el uso de herramientas y métodos de la ciencia de datos.
 
 Recuerde que para el curso deberá tener instalado los [**compiladores de Python**](https://www.python.org/downloads/), [**Visual Studio Code**](https://code.visualstudio.com/download) y el [**GIT BASH**](https://git-scm.com/downloads). Si desea complementar el contenido dado en el aula de clase, puede revisar el siguiente material audiovisual concerniente al manejo de VSCode y Git:
 
 1. [VSCode](https://youtu.be/Ei1y51K8jQk)
 2. [Git Tutorial *Hola Mundo*](https://youtu.be/VdGzPZ31ts8)
 3. [Git Tutorial *codigofacilito*](https://www.youtube.com/watch?v=zH3I1DZNovk&list=PL9xYXqvLX2kMUrXTvDY6GI2hgacfy0rId)
+4. [Documental Hola Mundo!](https://www.youtube.com/watch?v=GNRhblNcZv4)
 
-Ya teniendo instalado lo anterior, proceda a abrir una terminal de GIT BASH y copie el siguiente código
+Ya teniendo instalado lo anterior, descargue el archivo requirements.txt del presente repositorio, cree un entorno virtual de Python y en una terminal (de GIT BASH si está en Windows)  copie el siguiente código
 
 ```bash
 pip install requirements.txt
 ```
 
-Esto procederá a instalar todas las librerías necesarias. Se le recomienda al estudiante hacerle un Fork al repositorio o un clone para poder mantenerse actualizado con el material que se irá subiendo paulatinamente.
+## Esquema del Curso
 
-<h2>Esquema de clases</h2>
+### Semana 1: Introducción y Contextualización
+**Clase 1:**
+- Introducción al curso, objetivos y metodología.
+- Revisión del sílabo y expectativas.
+- Instalación y configuración del entorno de desarrollo (Python, Anaconda, Jupyter Notebooks).
 
-1. 09-ago-23 | Primera Clase
-2. 11-ago-23 | ¿Cómo funciona mi computador?
-3. 14-ago-23 | GitHub
-4. 16-ago-23 | Git + GitHub
-5. 18-ago-23 | Tipo de datos y Programación orientada a objetos
-6. 21-ago-23 | Interacción con el usuario, funciones y métodos
-7. 23-ago-23 | print, input, clases, instroducción a métodos y métodos mágicos
-8. 25-ago-23 | Condicionales y  Métodos mágicos
-9. 30-ago-23 | Práctica de condicionales y métodos mágicos (Taller)
-10. 01-sep-23 | Ciclos for y while
-11. 04-sep-23 | Listas, cadenas, diccionarios, tuplas
-12. 06-sep-23 | Funciones, *args, **kwargs
-13. 08-sep-23 | Recursividad
-14. 11-sep-23 | Taller
-15. 13-sep-23 | Taller
-16. 15-sep-23 | Parcial 1
-17. 18-sep-23 | Manejo de excepciones
-18. 20-sep-23 | [Generadores, y conjuntos](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=e971784274012cf2e0b8d92a557eb072) *Contraseña video de clase:* Programacion1
-19. 22-sep-23 | [funciones decoradas y Numpy](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=69fb539befdd43b6c1ea6f498c9ded27) *Contraseña video de clase:* Programacion1
-20. 25-sep-23 | [Numpy y gestión de archivos en el disco duro (Numpy y Python)](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=5a95007abc44e9fe08ea8a943dcae7ec) *Contraseña video de clase:* Programacion1
-21. 27-sep-23 | [Numpy](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=da591490a690c848072e3f64130b7957) *Contraseña video de clase:* Programacion1
-22. 29-sep-23 | [Pandas](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=1b2b3e2366f631aa7ea955bcae7f4c7f) *Contraseña video de clase:* Programacion1
-23. 02-oct-23 | [Pandas](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=a0e82cde078f52f7ef899f2f01a53c48) *Contraseña video de clase:* Programacion1
-24. 04-oct-23 | [Pandas](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=9ccdc9b8c95545ac75ae8f4170229c05) *Contraseña video de clase:* Programacion1
-25. 06-oct-23 | [Pandas](https://uniquindio.webex.com/uniquindio/ldr.php?RCID=6797697d7d0a5c9e99a001671133f6da) *Contraseña video de clase:* Programacion1
-26. 23-oct-23 | Revisión taller
-27. 25-oct-23 | Revisión taller
-28. 27-oct-23 | Revisión taller
-29. Hasta el 27-Oct-23 | Revisión pandas
-30. 30-Oct-23 | Sympy, Matplotlib, Scipy
-31. 1-Nov-23 | Sympy, Matplotlib, Scipy
+**Clase 2:**
+- Fundamentos de Git y GitHub.
+- Creación de un repositorio, commits, y ramas.
+- Ejercicio práctico: Crear un repositorio y hacer el primer commit.
 
-<h2>Tareas</h2>
+**Clase 3:**
+- Continuación con Git y GitHub.
+- Colaboración en proyectos: Pull requests y manejo de conflictos.
+- Ejercicio práctico en grupo: Colaboración en un repositorio compartido.
 
-La fecha que aparece al lado izquierdo de la tarea corresponde a la fecha para la que tiene que estar subida al GitHub (o finalizada la tarea en caso de no necesitar evidencia)
+### Semana 2: Fundamentos de Programación en Python
+**Clase 4:**
+- Introducción a Python: sintaxis básica.
+- `print()` y `input()`.
+- Tipos de datos básicos: enteros, flotantes, cadenas, y booleanos.
+- Ejercicio práctico: Programas simples de entrada y salida.
 
-1. 18-ago-23 | Explique una de las áreas de la programación (La que seleccionó a partir de la respuesta de CharGPT sobre las principales N áreas de la programación)
-2. 14-ago-23 | Revise la [lista de reproducción de código facilito sobre git/GitHub](https://www.youtube.com/watch?v=zH3I1DZNovk&list=PL9xYXqvLX2kMUrXTvDY6GI2hgacfy0rId) y traiga preguntas para la próxima clase (**Se toma como tema visto**)
-3. Ninguna
-4. 18-ago-23 | Cree su repositorio con un archivo README.md con código markdown, el .gitignore y una carpeta que se llame tareas, en donde subirá las tareas debidamente nombradas, incluída la antepasada.
-5. 21-ago-23 | Suba los ejercicios realizados en clase
-8. 06-sep-23 | Suba el taller
-9. 11-sep-23 | Suba un código donde implemente una clase con métodos mágicos, use *args y **kwargs en funciones y métodos, tenga al menos dos ciclos, tres condicionales y use métodos especiales de diccionarios listas y cadenas
-10. 18-sep-23 | Taller: Ejercicios Recursividad y Manejo de excepciones
-11. 20-sep-23 | Resumen de lo que son los decoradores en Python y un ejemplo
-12. 22-sep-23 | Suba un ejemplo donde use la librería itertools y cree un generador. Esto estructurado con lo que ya veníamos trabajando en el curso y enfocado a resolver un problema de física o de matemáticas
-13. 09-oct-23 | Resuelva el Taller_Programación_2023___Generadores_CPU.pdf subido en el repositorio y suba su solución en una carpeta llamada Taller Generadores
-14. 20-Oct-23 | Resuelva el Taller___Programación_2023___Pandas.pdf subido en el repositorio y suba su solución en una carpeta llamada Taller Pandas
-15. 2-Nov-23 | Resuelva el Taller_PANDAS.pdf subido en el repositorio
+**Clase 5:**
+- Variables y operadores.
+- Estructuras de control: condicionales (`if`, `elif`, `else`).
+- Estructuras de control: ciclos (`for`, `while`).
+- Ejercicio práctico: Programas con decisiones y bucles.
+
+**Clase 6:**
+- Listas, tuplas, diccionarios y conjuntos.
+- Operaciones básicas con colecciones.
+- Ejercicio práctico: Manipulación de colecciones.
+
+### Semana 3: Fundamentos de Programación Orientada a Objetos (POO)
+**Clase 7:**
+- Introducción a la programación orientada a objetos.
+- Conceptos de clases y objetos.
+- Ejemplos básicos en Python.
+
+**Clase 8:**
+- Atributos y métodos.
+- Constructores y destructores.
+- Encapsulamiento y visibilidad.
+- Ejercicio práctico: Crear clases simples y encapsulamiento.
+
+**Clase 9:**
+- Herencia y polimorfismo.
+- Clases base y derivadas.
+- Sobrescritura de métodos.
+- Uso de la función `super()`.
+- Ejercicio práctico: Implementar herencia.
+
+### Semana 4: Fundamentos de POO
+**Clase 10:**
+- Métodos mágicos y operadores sobrecargados.
+- Métodos como `__str__`, `__add__`, `__eq__`.
+- Ejercicio práctico: Implementar métodos mágicos.
+
+**Clase 11:**
+- Revisión de conceptos de POO mediante ejercicios.
+- Mini-proyecto: Simulación de un sistema físico simple usando POO (ejemplo: sistema de partículas).
+
+**Clase 12:**
+- Presentación de mini-proyecto.
+- Retroalimentación y discusión.
+
+### Semana 5: Bibliotecas Científicas en Python
+**Clase 13:**
+- Introducción a bibliotecas científicas en Python.
+- Instalación y configuración de bibliotecas: NumPy, SciPy, Matplotlib.
+- Introducción a NumPy: creación y manipulación de arreglos.
+
+**Clase 14:**
+- Funciones matemáticas y estadísticas en NumPy.
+- Introducción a SciPy: uso para problemas numéricos.
+- Ejercicio práctico: Manipulación de datos con NumPy y SciPy.
+
+**Clase 15:**
+- Introducción a Matplotlib.
+- Creación de gráficos 2D y 3D.
+- Ejercicio práctico: Visualización de datos físicos.
+
+### Semana 6: Matplotlib y Proyecto 1
+**Clase 16:**
+- Gráficos avanzados en Matplotlib: gráficos de contorno.
+- Proyecto 1: Planificación y asignación de temas.
+
+**Clase 17:**
+- Trabajo en Proyecto 1.
+- Asesorías y revisión de avances.
+
+**Clase 18:**
+- Continuación del Proyecto 1.
+- Resolución de dudas y problemas.
+
+### Semana 7: Proyecto 1 y Sustentación
+**Clase 19:**
+- Trabajo en Proyecto 1.
+- Asesorías y revisión de avances.
+
+**Clase 20:**
+- Sustentación intermedia de Proyecto 1.
+- Retroalimentación y ajustes.
+
+**Clase 21:**
+- Continuación del Proyecto 1.
+- Resolución de dudas y problemas.
+
+### Semana 8: Pandas
+**Clase 22:**
+- Introducción a Pandas.
+- Estructuras de datos: Series y DataFrames.
+- Ejercicio práctico: Creación y manipulación de DataFrames.
+
+**Clase 23:**
+- Operaciones básicas con Pandas.
+- Filtrado y selección de datos.
+- Ejercicio práctico: Análisis de datos simples.
+
+**Clase 24:**
+- Operaciones avanzadas con Pandas.
+- Agrupamiento, unión y pivote de datos.
+- Ejercicio práctico: Manipulación avanzada de DataFrames.
+
+### Semana 9: Pandas
+**Clase 25:**
+- Importación y exportación de datos.
+- Lectura y escritura de archivos CSV, Excel, SQL.
+- Ejercicio práctico: Manejo de archivos.
+
+**Clase 26:**
+- Limpieza y preparación de datos.
+- Manejo de valores faltantes y duplicados.
+- Ejercicio práctico: Limpieza de un conjunto de datos.
+
+**Clase 27:**
+- Visualización de datos con Pandas y Matplotlib.
+- Ejercicio práctico: Creación de gráficos a partir de DataFrames.
+
+### Semana 10: Ciencia de Datos
+**Clase 28:**
+- Introducción a la ciencia de datos.
+- Conceptos básicos y flujo de trabajo.
+- Ejemplo práctico en Python.
+
+**Clase 29:**
+- Técnicas de análisis de datos.
+- Estadísticas descriptivas y exploración de datos.
+- Ejercicio práctico: Análisis exploratorio de datos.
+
+**Clase 30:**
+- Proyecto 2: Planificación y asignación de temas.
+- Inicio del desarrollo del Proyecto 2 (Análisis de datos físicos).
+
+### Semana 11: Ciencia de Datos
+**Clase 31:**
+- Continuación del Proyecto 2.
+- Asesorías y revisión de avances.
+
+**Clase 32:**
+- Uso de SQL en Python.
+- Conexión a bases de datos, consultas básicas.
+- Ejercicio práctico: Consultas SQL en Python.
+
+**Clase 33:**
+- Herramientas avanzadas de análisis de datos.
+- Introducción a bibliotecas adicionales (por ejemplo, Seaborn, Scikit-learn).
+- Ejercicio práctico: Uso de herramientas avanzadas.
+
+### Semana 12: Proyecto 2 y Sustentación
+**Clase 34:**
+- Trabajo en Proyecto 2.
+- Asesorías y revisión de avances.
+
+**Clase 35:**
+- Sustentación intermedia de Proyecto 2.
+- Retroalimentación y ajustes.
+
+**Clase 36:**
+- Continuación del Proyecto 2.
+- Resolución de dudas y problemas.
+
+### Semana 13: Integración de Conocimientos
+**Clase 37:**
+- Revisión de temas clave.
+- Ejercicios integradores de POO, bibliotecas científicas y manejo de datos.
+
+**Clase 38:**
+- Taller práctico de integración.
+- Resolución de problemas complejos con múltiples herramientas.
+
+**Clase 39:**
+- Trabajo en proyectos finales.
+- Preparación para las presentaciones finales.
+
+### Semana 14: Introducción a Machine Learning y SQL
+**Clase 40:**
+- Introducción a Machine Learning.
+- Conceptos básicos y aplicaciones.
+- Instalación y configuración de Scikit-learn.
+
+**Clase 41:**
+- Continuación del uso de SQL en Python.
+- Consultas avanzadas y manipulación de bases de datos.
+- Ejercicio práctico: Consultas SQL avanzadas.
+
+**Clase 42:**
+- Integración de SQL y análisis de datos en proyectos.
+- Ejercicio práctico: Uso combinado de SQL y Pandas.
+
+### Semana 15: Presentaciones Finales y Evaluación
+**Clase 43:**
+- Presentación final de Proyecto 1.
+- Evaluación y retroalimentación.
+
+**Clase 44:**
+- Presentación final de Proyecto 2.
+- Evaluación y retroalimentación.
+
+**Clase 45:**
+- Cierre del curso.
+- Entrega de notas y conclusiones finales.
+
+### Semana 16: Semana de Recuperación y Consultas
+- Disponibilidad para consultas adicionales y recuperación de actividades pendientes.
+
+## [Bibliografía Recomendada](https://1drv.ms/u/s!AvgPrG5g0hS9geYeVJN97X8LEwTkiQ?e=f4NW5x).
