@@ -45,21 +45,24 @@ pip install requirements.txt
 - Instalación y configuración del entorno de desarrollo (Python, Anaconda, Jupyter Notebooks).
 
 **Clase 2:**
-- Fundamentos de Git y GitHub.
-- Creación de un repositorio, commits, y ramas.
-- Ejercicio práctico: Crear un repositorio y hacer el primer commit.
+FESTIVO
 
 **Clase 3:**
-- Continuación con Git y GitHub.
-- Colaboración en proyectos: Pull requests y manejo de conflictos.
-- Ejercicio práctico en grupo: Colaboración en un repositorio compartido.
+- Fundamentos de Git y GitHub.
+- Creación de un entorno virtual de Python e instalación de Jupyter
+- Archivos README.md requirements.txt y .gitignore en un repositorio.
+- Creación de un repositorio, commits.
+
 
 ### Semana 2: Fundamentos de Programación en Python
 **Clase 4:**
+- Continuación con Git y GitHub.
+- Ramas
+- Colaboración en proyectos: Pull requests y manejo de conflictos.
 - Introducción a Python: sintaxis básica.
 - `print()` y `input()`.
 - Tipos de datos básicos: enteros, flotantes, cadenas, y booleanos.
-- Ejercicio práctico: Programas simples de entrada y salida.
+- Ejercicio práctico en grupo: Colaboración en un repositorio compartido que contenga programas simples de entrada y salida.
 
 **Clase 5:**
 - Variables y operadores.
