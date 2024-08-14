@@ -62,7 +62,7 @@ FESTIVO
 - Introducción a Python: sintaxis básica.
 - `print()` y `input()`.
 - Tipos de datos básicos: enteros, flotantes, cadenas, y booleanos.
-- Ejercicio práctico en grupo: Colaboración en un repositorio compartido que contenga programas simples de entrada y salida.
+- Tarea: Creación de un repositorio que contenga un programa simple de entrada y salida.
 
 **Clase 5:**
 - Variables y operadores.
