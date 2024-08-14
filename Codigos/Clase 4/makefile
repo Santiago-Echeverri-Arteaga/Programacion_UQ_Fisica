@@ -1,5 +1,5 @@
 # Variables
-VENV := myenv
+VENV := entorno_1
 PYTHON := $(VENV)/bin/python
 PIP := $(VENV)/bin/pip
 RUTA := $(VENV)/bin/activate
@@ -23,8 +23,8 @@ install: entorno activar
 
 # Crear archivos básicos
 init:
-	echo "# Proyecto en Python" > README.md
-	echo "myenv/" > .gitignore
+	@echo "# Proyecto en Python" > README.md
+	@echo "entorno_1/" > .gitignore
 	$(PIP) freeze > requirements.txt
 	@echo "Archivos README.md, .gitignore y requirements.txt creados"
 
@@ -39,7 +39,8 @@ clean:
 	@echo "Entorno virtual y archivos de caché eliminados"
 
 # Crear todo
-setup: entorno activar init install
+setup: entorno activar install init
+	git init
 	@echo "Proyecto configurado y listo para trabajar"
 
 # Correr el código
