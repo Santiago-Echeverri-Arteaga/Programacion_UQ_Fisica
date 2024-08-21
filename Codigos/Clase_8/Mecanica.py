@@ -1,5 +1,3 @@
-import math
-
 class Vector:
     def __init__(self, x, y, z=0):
         """
@@ -61,17 +59,17 @@ class Vector:
         """
         return self.__mul__(scalar)
 
-    def __call__(self, *args):
+    def __call__(self, args):
         """
         Permite evaluar el vector o realizar operaciones con otro vector.
         
         :param args: Puede ser un punto específico o un vector.
         :return: Valor o vector resultante.
         """
-        if len(args) == 1 and isinstance(args[0], Vector):
-            return self + args[0]  # Ejemplo: sumar dos vectores al ser llamados
-        elif len(args) == 2:
-            return self.dot(args[0]) * args[1]  # Ejemplo: evaluar el producto punto con un escalar
+        if isinstance(args, Vector):
+            return self + args  # Ejemplo: sumar dos vectores al ser llamados
+        elif isinstance(args, int) or isinstance(args, float):
+            return self.__mul__(args) # Ejemplo: evaluar el producto punto con un escalar
         else:
             return None
 
@@ -81,7 +79,7 @@ class Vector:
 
         :return: Magnitud del vector.
         """
-        return math.sqrt(self.x**2 + self.y**2 + self.z**2)
+        return (self.x**2 + self.y**2 + self.z**2)**0.5
 
     def dot(self, other):
         """
@@ -104,7 +102,6 @@ class Vector:
                       self.x * other.y - self.y * other.x)
 
 
-import numpy as np
 
 class Particula:
     def __init__(self, nombre, masa, posicion, velocidad):
@@ -182,7 +179,10 @@ class SistemaParticulas:
 
         :return: Energía cinética total (float).
         """
-        return sum(p.energia_cinetica() for p in self.particulas)
+        energias = []
+        for p in self.particulas:
+             energias.append(p.energia_cinetica())
+        return sum(energias)
 
     def aplicar_fuerza_externa(self, fuerza):
         """
@@ -213,6 +213,7 @@ class SistemaParticulas:
         while self.tiempo < t_final:
             self.actualizar(dt)
             print(f"Tiempo: {self.tiempo:.2f} s, Energía total: {self.energia_total():.2f} J")
+            # TODO: Analizar caso de colisiones elásticas e inelásticas
 
 
 
@@ -247,27 +248,28 @@ cross_product = v1.cross(v2)
 print(cross_product)  # Salida: (-3, 6, -3)
 
 # Uso del método __call__
-result = v1(v2)  # Suma de dos vectores usando __call__
-print(result)  # Salida: (5, 7, 9)
+print(v1(v2))
+print(v1(2.5))
+print(v1(3))
 
 
-# Ejemplo de uso con las clases Vector y Particula
-if __name__ == "__main__":
-    # Crear un par de vectores para la posición y la velocidad
-    p1_pos = Vector(0, 0, 0)
-    p1_vel = Vector(1, 0, 0)
+# Crear un par de vectores para la posición y la velocidad
+p1_pos = Vector(0, 0, 0)
+p1_vel = Vector(1, 0, 0)
     
-    p2_pos = Vector(0, 1, 0)
-    p2_vel = Vector(0, -1, 0)
+p2_pos = Vector(0, 1, 0)
+p2_vel = Vector(0, -1, 0)
 
-    # Crear partículas
-    p1 = Particula(nombre="Partícula 1", masa=1.0, posicion=p1_pos, velocidad=p1_vel)
-    p2 = Particula(nombre="Partícula 2", masa=2.0, posicion=p2_pos, velocidad=p2_vel)
+# Crear partículas
+p1 = Particula(nombre="Partícula 1", masa=1.0, posicion=p1_pos, velocidad=p1_vel)
+p2 = Particula(nombre="Partícula 2", masa=2.0, posicion=p2_pos, velocidad=p2_vel)
 
-    # Crear un sistema de partículas
-    sistema = SistemaParticulas()
-    sistema.agregar_particula(p1)
-    sistema.agregar_particula(p2)
+# Crear un sistema de partículas
+sistema = SistemaParticulas()
+sistema.agregar_particula(p1)
+sistema.agregar_particula(p2)
 
-    # Simular el sistema durante 10 segundos con un paso de tiempo de 1 segundo
-    sistema.simular(dt=1, t_final=10)
+# Simular el sistema durante 10 segundos con un paso de tiempo de 1 segundo
+sistema.simular(dt=1, t_final=10)
+sistema.aplicar_fuerza_externa(Vector(12,3,0))
+sistema.simular(dt=1, t_final=20)

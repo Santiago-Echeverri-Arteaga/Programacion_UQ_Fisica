@@ -9,7 +9,10 @@ class FuncionFisica:
         """
         self.nombre = nombre
         self.expresion = expresion
-        self.parametros = parametros if parametros is not None else {}
+        if parametros!=None:
+            self.parametros = parametros
+        else:
+            self.parametros = {}
 
     def __repr__(self):
         """
@@ -30,7 +33,10 @@ class FuncionFisica:
         :param x: Punto en el que se evalúa la función.
         :return: Valor de la función en x.
         """
-        return eval(self.expresion, {"x": x, **self.parametros})
+        
+    def evaluar(self, x, y=None):
+        # Evaluar la expresión en el contexto de x (y también y si es necesario)
+        return eval(self.expresion, {"x": x, "y": y, **self.parametros})
 
     def derivada(self, x, h=1e-5):
         """
@@ -55,36 +61,10 @@ class FuncionFisica:
         x, y = x0, y0
         resultados = [(x, y)]
         while x < t_final:
-            y += self.derivada(y) * dt
+            y += self.evaluar(x, y) * dt  # y_n+1 = y_n + f(x_n, y_n) * dt
             x += dt
             resultados.append((x, y))
         return resultados
-
-    def interpolacion_lineal(self, x1, y1, x2, y2, x):
-        """
-        Realiza la interpolación lineal entre dos puntos.
-
-        :param x1: Primer punto en x.
-        :param y1: Primer punto en y.
-        :param x2: Segundo punto en x.
-        :param y2: Segundo punto en y.
-        :param x: Punto en el que se quiere interpolar.
-        :return: Valor interpolado en x.
-        """
-        return y1 + (y2 - y1) * (x - x1) / (x2 - x1)
-
-    def interpolar(self, puntos, x):
-        """
-        Interpola un valor en x usando una lista de puntos.
-
-        :param puntos: Lista de tuplas (x, y) ordenadas.
-        :param x: Punto en el que se quiere interpolar.
-        :return: Valor interpolado en x, o None si x está fuera del rango de puntos.
-        """
-        for i in range(len(puntos) - 1):
-            if puntos[i][0] <= x <= puntos[i+1][0]:
-                return self.interpolacion_lineal(puntos[i][0], puntos[i][1], puntos[i+1][0], puntos[i+1][1], x)
-        return None
 
     def newton_raphson(self, x0, tol=1e-5, max_iter=100):
         """
@@ -105,6 +85,7 @@ class FuncionFisica:
             if abs(x_new - x) < tol:
                 return x_new
             x = x_new
+        print(f"Se alcanzó el máximo de iteraciones ({max_iter:d}) sin obtener una respuesta dentro de la toleracia establecida ({tol:.2e})")
         return None
 
     def integrar_trapecio(self, a, b, n):
@@ -122,42 +103,27 @@ class FuncionFisica:
             sumatoria += self.evaluar(a + i * h)
         return h * sumatoria
 
-    def integrar_simpson(self, a, b, n):
-        """
-        Calcula la integral de la función usando la regla de Simpson.
 
-        :param a: Límite inferior de la integral.
-        :param b: Límite superior de la integral.
-        :param n: Número de subdivisiones (debe ser par).
-        :return: Aproximación de la integral en el intervalo [a, b].
-        """
-        if n % 2:
-            n += 1  # La regla de Simpson requiere un número par de intervalos
-        h = (b - a) / n
-        sumatoria = self.evaluar(a) + self.evaluar(b)
-        for i in range(1, n, 2):
-            sumatoria += 4 * self.evaluar(a + i * h)
-        for i in range(2, n-1, 2):
-            sumatoria += 2 * self.evaluar(a + i * h)
-        return h / 3 * sumatoria
 
 # Definimos una función física simple: f(x) = x^2 - 4
 func = FuncionFisica(nombre="Parábola", expresion="x**2 - 4")
 
 # Evaluamos la función en x = 2
-print(func.evaluar(2))  # Salida: 0
+print(f"El valor de la función evaluada es: {func.evaluar(2)}")  # Salida: 0
 
 # Calculamos la derivada numérica en x = 2
-print(func.derivada(2))  # Salida: ~4
+print(f"La derivada vale {func.derivada(2):.2f}")  # Salida: ~4
 
 # Encontramos el cero de la función usando Newton-Raphson
 cero = func.newton_raphson(x0=3)
-print(cero)  # Salida: ~2
+print(f"Se encuentra el cero de la función: {cero}")  # Salida: ~2
 
 # Calculamos la integral de la función en el intervalo [0, 2] usando el método del trapecio
 integral = func.integrar_trapecio(a=0, b=2, n=100)
-print(integral)  # Salida: ~-2.67
+print(f"la integral en el intervalo [0,2] vale: {integral}")  # Salida: ~-2.67
 
 # Resolución de una ecuación diferencial usando el método de Euler
 solucion = func.metodo_euler(x0=0, y0=1, dt=0.1, t_final=2)
-print(solucion)  # Lista de tuplas (x, y)
+print(f"Solución de la EDO: {solucion}")  # Lista de tuplas (x, y)
+
+# solución exacta es x**3/3-4*x+1 
