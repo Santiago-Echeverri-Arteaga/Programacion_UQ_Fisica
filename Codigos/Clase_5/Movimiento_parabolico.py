@@ -22,7 +22,7 @@ t_vuelo = (2 * vy) / g
 # Calcular la posición en varios puntos de tiempo
 t = 0
 dt = 0.1  # incremento de tiempo en segundos
-x_max = 0  # para almacenar la distancia máxima
+y_max = 0  # para almacenar la distancia máxima
 
 print(f"Tiempo (s)\tX (m)\tY (m)")
 while t <= t_vuelo:
@@ -30,11 +30,11 @@ while t <= t_vuelo:
     y = vy * t - 0.5 * g * t ** 2
     
     # Actualizar distancia máxima
-    if x > x_max:
-        x_max = x
+    if y > y_max:
+        y_max = y
     
-    print(f"{t:10.2f}\t{x:.2f}\t{y:.2f}")
+    print(f"{t:10.2f}\t{x:5.2f}\t{y:5.2f}")
     
     t += dt
 
-print(f"\nDistancia máxima alcanzada: {x_max:.2f} m")
+print(f"Altura máxima alcanzada: {y_max:.2f} m")
