@@ -61,7 +61,7 @@ class Vector:
 
     def __call__(self, args):
         """
-        Permite evaluar el vector o realizar operaciones con otro vector.
+        Permite sumar dos vectores o multiplicar el vector por un escalar. Esto dependiendo del tipo de datos que sea args.
         
         :param args: Puede ser un punto específico o un vector.
         :return: Valor o vector resultante.
@@ -69,7 +69,7 @@ class Vector:
         if isinstance(args, Vector):
             return self + args  # Ejemplo: sumar dos vectores al ser llamados
         elif isinstance(args, int) or isinstance(args, float):
-            return self.__mul__(args) # Ejemplo: evaluar el producto punto con un escalar
+            return self*args # Ejemplo: evaluar el producto punto con un escalar
         else:
             return None
 
@@ -100,6 +100,25 @@ class Vector:
         return Vector(self.y * other.z - self.z * other.y,
                       self.z * other.x - self.x * other.z,
                       self.x * other.y - self.y * other.x)
+    def __getitem__(self, key):
+        if key.lower() in {"x","y","z"}:
+            if key.lower() == "x":
+                return(self.x)
+            elif key.lower() == "y":
+                return(self.y)
+            else:
+                return(self.z)
+        else:
+            raise KeyError("Ese índice no existe en el vector")
+    def __setitem__(self, key, value):
+        if key.lower() == "x":
+            self.x = value
+        elif key.lower() == "y":
+            self.y = value
+        elif key.lower() == "z":
+            self.z = value
+        else:
+            raise KeyError("Esta coordenada no existe")
 
 
 
@@ -226,6 +245,10 @@ v2 = Vector(4, 5, 6)
 print(v1)  # Salida: (1, 2, 3)
 print(v2)  # Salida: (4, 5, 6)
 
+repr(v1)
+v1["X"]=1
+print(v1)
+
 # Sumar y restar vectores
 v_sum = v1 + v2
 v_diff = v1 - v2
@@ -261,9 +284,11 @@ p2_pos = Vector(0, 1, 0)
 p2_vel = Vector(0, -1, 0)
 
 # Crear partículas
-p1 = Particula(nombre="Partícula 1", masa=1.0, posicion=p1_pos, velocidad=p1_vel)
-p2 = Particula(nombre="Partícula 2", masa=2.0, posicion=p2_pos, velocidad=p2_vel)
+p1 = Particula(nombre="Alice", masa=1.0, posicion=p1_pos, velocidad=p1_vel)
+p2 = Particula(nombre="Bob", masa=2.0, posicion=p2_pos, velocidad=p2_vel)
 
+print(p1)
+print(p2)
 # Crear un sistema de partículas
 sistema = SistemaParticulas()
 sistema.agregar_particula(p1)

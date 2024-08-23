@@ -75,12 +75,49 @@ FESTIVO
 - Operaciones básicas con colecciones.
 - Ejercicio práctico: Manipulación de colecciones.
 
-### Semana 3: Fundamentos de Programación en Python
+
+### Semana 3: Fundamentos de Programación Orientada a Objetos (POO)
 **Clase 7:**
+- Introducción a la programación orientada a objetos.
+- Conceptos de clases y objetos.
+- Introducción a los métodos mágicos
+- Atributos y métodos
+- Ejemplos básicos en Python.
+
+**Clase 8:**
+- Revisión de códigos de ejemplo
+- introducción a métodos numéricos
+
+
+
+**Clase 9:**
+- Trabajo individual asistido: Crear una clase aplicada a la física con:
+     - Constructor  `__init__`
+     - Uso de cadenas, números (`int`/`float`)
+     - Implementar los métodos `__add__` `__sub__` `__mul__` `__rmul__` `__call__` `__setitem__` `__getitem__` `__str__`
+     - Algún método adicional
+     - Implementar algún método numérico diferente de los ejemplos de clase y que involucre ciclos/condicionales
+     - Implementar dos o más métodos mágicos adicionales
+
+### Semana 4: Fundamentos de Programación en Python
+**Clase 7:**
+- Avance en las tareas
 - Funciones en Python: definición y llamada.
 - Argumentos y parámetros.
 - Alcance de las variables.
 - Ejercicio práctico: Creación y uso de funciones.
+
+<span hidden>
+Constructores y destructores.
+Encapsulamiento y visibilidad.
+Herencia y polimorfismo.
+Clases base y derivadas.
+Sobrescritura de métodos.
+Uso de la función `super()`.
+Ejercicio práctico: Implementar herencia.
+Métodos mágicos y operadores sobrecargados.
+Funciones Orden Superior https://controlautomaticoeducacion.com/python-desde-cero/funciones-de-orden-superior/
+ </span>
 
 **Clase 8:**
 - Funciones de orden superior y lambdas.
@@ -91,186 +128,6 @@ FESTIVO
 - Módulos y paquetes.
 - Importación y uso de módulos estándar.
 - Ejercicio práctico: Creación y uso de módulos personalizados.
-
-### Semana 4: Fundamentos de Programación Orientada a Objetos (POO)
-**Clase 10:**
-- Introducción a la programación orientada a objetos.
-- Conceptos de clases y objetos.
-- Ejemplos básicos en Python.
-
-**Clase 11:**
-- Atributos y métodos.
-- Constructores y destructores.
-- Encapsulamiento y visibilidad.
-- Ejercicio práctico: Crear clases simples y encapsulamiento.
-
-**Clase 12:**
-- Herencia y polimorfismo.
-- Clases base y derivadas.
-- Sobrescritura de métodos.
-- Uso de la función `super()`.
-- Ejercicio práctico: Implementar herencia.
-
-### Semana 5: Fundamentos de POO
-**Clase 13:**
-- Métodos mágicos y operadores sobrecargados.
-- Métodos como `__str__`, `__add__`, `__eq__`.
-- Ejercicio práctico: Implementar métodos mágicos.
-
-**Clase 14:**
-- Revisión de conceptos de POO mediante ejercicios.
-- Mini-proyecto: Simulación de un sistema físico simple usando POO (ejemplo: sistema de partículas).
-
-**Clase 15:**
-- Presentación de mini-proyecto.
-- Retroalimentación y discusión.
-
-### Semana 6: Bibliotecas Científicas en Python
-**Clase 16:**
-- Introducción a bibliotecas científicas en Python.
-- Instalación y configuración de bibliotecas: NumPy, SciPy, Matplotlib.
-- Introducción a NumPy: creación y manipulación de arreglos.
-
-**Clase 17:**
-- Funciones matemáticas y estadísticas en NumPy.
-- Introducción a SciPy: uso para problemas numéricos.
-- Ejercicio práctico: Manipulación de datos con NumPy y SciPy.
-
-**Clase 18:**
-- Introducción a Matplotlib.
-- Creación de gráficos 2D y 3D.
-- Ejercicio práctico: Visualización de datos físicos.
-
-### Semana 7: Matplotlib y Proyecto 1
-**Clase 19:**
-- Gráficos avanzados en Matplotlib: gráficos de contorno.
-- Proyecto 1: Planificación y asignación de temas.
-
-**Clase 20:**
-- Trabajo en Proyecto 1.
-- Asesorías y revisión de avances.
-
-**Clase 21:**
-- Continuación del Proyecto 1.
-- Resolución de dudas y problemas.
-
-### Semana 8: Proyecto 1 y Sustentación
-**Clase 22:**
-- Trabajo en Proyecto 1.
-- Asesorías y revisión de avances.
-
-**Clase 23:**
-- Sustentación intermedia de Proyecto 1.
-- Retroalimentación y ajustes.
-
-**Clase 24:**
-- Continuación del Proyecto 1.
-- Resolución de dudas y problemas.
-
-### Semana 9: Pandas
-**Clase 25:**
-- Introducción a Pandas.
-- Estructuras de datos: Series y DataFrames.
-- Ejercicio práctico: Creación y manipulación de DataFrames.
-
-**Clase 26:**
-- Operaciones básicas con Pandas.
-- Filtrado y selección de datos.
-- Ejercicio práctico: Análisis de datos simples.
-
-**Clase 27:**
-- Operaciones avanzadas con Pandas.
-- Agrupamiento, unión y pivote de datos.
-- Ejercicio práctico: Manipulación avanzada de DataFrames.
-
-### Semana 10: Pandas
-**Clase 28:**
-- Importación y exportación de datos.
-- Lectura y escritura de archivos CSV, Excel, SQL.
-- Ejercicio práctico: Manejo de archivos.
-
-**Clase 29:**
-- Limpieza y preparación de datos.
-- Manejo de valores faltantes y duplicados.
-- Ejercicio práctico: Limpieza de un conjunto de datos.
-
-**Clase 30:**
-- Visualización de datos con Pandas y Matplotlib.
-- Ejercicio práctico: Creación de gráficos a partir de DataFrames.
-
-### Semana 11: Ciencia de Datos
-**Clase 31:**
-- Introducción a la ciencia de datos.
-- Conceptos básicos y flujo de trabajo.
-- Ejemplo práctico en Python.
-
-**Clase 32:**
-- Técnicas de análisis de datos.
-- Estadísticas descriptivas y exploración de datos.
-- Ejercicio práctico: Análisis exploratorio de datos.
-
-**Clase 33:**
-- Proyecto 2: Planificación y asignación de temas.
-- Inicio del desarrollo del Proyecto 2 (Análisis de datos físicos).
-
-### Semana 12: Ciencia de Datos
-**Clase 34:**
-- Continuación del Proyecto 2.
-- Asesorías y revisión de avances.
-
-**Clase 35:**
-- Uso de SQL en Python.
-- Conexión a bases de datos, consultas básicas.
-- Ejercicio práctico: Consultas SQL en Python.
-
-**Clase 36:**
-- Herramientas avanzadas de análisis de datos.
-- Introducción a bibliotecas adicionales (por ejemplo, Seaborn, Scikit-learn).
-- Ejercicio práctico: Uso de herramientas avanzadas.
-
-### Semana 13: Proyecto 2 y Sustentación
-**Clase 37:**
-- Trabajo en Proyecto 2.
-- Asesorías y revisión de avances.
-
-**Clase 38:**
-- Sustentación intermedia de Proyecto 2.
-- Retroalimentación y ajustes.
-
-**Clase 39:**
-- Continuación del Proyecto 2.
-- Resolución de dudas y problemas.
-
-### Semana 14: Introducción a Machine Learning y SQL
-**Clase 40:**
-- Introducción a Machine Learning.
-- Conceptos básicos y aplicaciones.
-- Instalación y configuración de Scikit-learn.
-
-**Clase 41:**
-- Continuación del uso de SQL en Python.
-- Consultas avanzadas y manipulación de bases de datos.
-- Ejercicio práctico: Consultas SQL avanzadas.
-
-**Clase 42:**
-- Integración de SQL y análisis de datos en proyectos.
-- Ejercicio práctico: Uso combinado de SQL y Pandas.
-
-### Semana 15: Presentaciones Finales y Evaluación
-**Clase 43:**
-- Presentación final de Proyecto 1.
-- Evaluación y retroalimentación.
-
-**Clase 44:**
-- Presentación final de Proyecto 2.
-- Evaluación y retroalimentación.
-
-**Clase 45:**
-- Cierre del curso.
-- Entrega de notas y conclusiones finales.
-
-### Semana 16: Semana de Recuperación y Consultas
-- Disponibilidad para consultas adicionales y recuperación de actividades pendientes.
 
 
 ## [Bibliografía Recomendada](https://1drv.ms/u/s!AvgPrG5g0hS9geYeVJN97X8LEwTkiQ?e=f4NW5x).

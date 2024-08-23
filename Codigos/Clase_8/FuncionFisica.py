@@ -25,18 +25,11 @@ class FuncionFisica:
         Representación amigable de la función.
         """
         return f"Función {self.nombre}: {self.expresion}"
-
-    def evaluar(self, x):
-        """
-        Evalúa la función en un punto x.
-
-        :param x: Punto en el que se evalúa la función.
-        :return: Valor de la función en x.
-        """
         
     def evaluar(self, x, y=None):
+        import math
         # Evaluar la expresión en el contexto de x (y también y si es necesario)
-        return eval(self.expresion, {"x": x, "y": y, **self.parametros})
+        return eval(self.expresion, {"x": x, "y": y, "sin": math.sin})
 
     def derivada(self, x, h=1e-5):
         """
@@ -123,7 +116,7 @@ integral = func.integrar_trapecio(a=0, b=2, n=100)
 print(f"la integral en el intervalo [0,2] vale: {integral}")  # Salida: ~-2.67
 
 # Resolución de una ecuación diferencial usando el método de Euler
-solucion = func.metodo_euler(x0=0, y0=1, dt=0.1, t_final=2)
+solucion = func.metodo_euler(x0=0, y0=1, dt=0.001, t_final=2)
 print(f"Solución de la EDO: {solucion}")  # Lista de tuplas (x, y)
 
 # solución exacta es x**3/3-4*x+1 
