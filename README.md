@@ -107,17 +107,6 @@ FESTIVO
 - Alcance de las variables.
 - Ejercicio práctico: Creación y uso de funciones.
 
-<span hidden>
-Constructores y destructores.
-Encapsulamiento y visibilidad.
-Herencia y polimorfismo.
-Clases base y derivadas.
-Sobrescritura de métodos.
-Uso de la función `super()`.
-Ejercicio práctico: Implementar herencia.
-Métodos mágicos y operadores sobrecargados.
-Funciones Orden Superior https://controlautomaticoeducacion.com/python-desde-cero/funciones-de-orden-superior/
- </span>
 
 **Clase 8:**
 - Funciones de orden superior y lambdas.
