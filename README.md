@@ -162,7 +162,7 @@ FESTIVO
 **Clase 18:**
 - Introducción a Pandas
 
-### Semana 8: 
+### Semana 8: Examen
 
 **Clase 19:**
 - Asesoría con los proyectos y trabajo en clase
