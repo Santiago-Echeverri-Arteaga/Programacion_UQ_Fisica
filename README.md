@@ -100,28 +100,28 @@ FESTIVO
      - Implementar dos o más métodos mágicos adicionales
 
 ### Semana 4: Fundamentos de Programación en Python
-**Clase 7:**
+**Clase 10:**
 - Trabajo autónomo en la tarea
 
-**Clase 8:**
+**Clase 11:**
 - Exposiciones y revisión de trabajo autónomo
 
-**Clase 9:**
+**Clase 12:**
 - Introducción a Matplotlib Orientado a Objetos
 
 
 ### Semana 5: Matplotlib y Funciones
-**Clase 10:**
+**Clase 13:**
 - Matplotlib orientado a Objetos
 
-**Clase 11:**
+**Clase 14:**
 - Funciones en Python: definición y llamada.
 - Argumentos y parámetros.
 - Alcance de las variables.
 - Lambdas, Zip, Map, Enumerate
 - Ejercicio práctico: Creación y uso de funciones.
 
-**Clase 12:**
+**Clase 15:**
 - Trabajo asistido: Crear funciones y métodos implementado funciones
      - Crear atributos en una clase con figures y Axes
      - Hacer uso de *args y **kwargs
@@ -129,15 +129,15 @@ FESTIVO
 
 ### Semana 6: Geradores y decoradores
 
-**Clase 13:**
+**Clase 16:**
 - Generadores
 - Comprensión de generadores, de listas y de diccionarios
 
-**Clase 14:**
+**Clase 17:**
 - Funciones de orden superior y lambdas.
 - Decoradores.
 
-**Clase 15:**
+**Clase 18:**
 - Módulos y paquetes.
 - Importación y uso de módulos estándar.
 - Ejercicio práctico: Creación y uso de módulos personalizados.
@@ -151,26 +151,26 @@ FESTIVO
 
 ### Semana 7: Funciones y recursividad
 
-**Clase 16:**  
+**Clase 19:**  
 - Exposición de tareas
 
-**Clase 17:**
+**Clase 20:**
 - Recursividad
 - Ejemplos recursivos
 - Ejercicios recursividad
 
-**Clase 18:**
+**Clase 21:**
 - Introducción a Pandas
 
 ### Semana 8: Examen
 
-**Clase 19:**
+**Clase 22:**
 - Asesoría con los proyectos y trabajo en clase
 
-**Clase 20:**
+**Clase 23:**
 - Sustentación de proyectos
 
-**Clase 21:**
+**Clase 24:**
 - Sustentación de proyectos
 
 
