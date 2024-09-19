@@ -118,7 +118,6 @@ FESTIVO
 - Funciones en Python: definición y llamada.
 - Argumentos y parámetros.
 - Alcance de las variables.
-- Lambdas, Zip, Map, Enumerate
 - Ejercicio práctico: Creación y uso de funciones.
 
 **Clase 15:**
@@ -126,18 +125,54 @@ FESTIVO
      - Crear atributos en una clase con figures y Axes
      - Hacer uso de *args y **kwargs
      - Crear métodos para hacer gráficas y animaciones
+- **Tarea Matplotlib:** Implementar un método para hacer una grafica en matplotlib. Realizar una animación (gif) usando matplotlib.
 
 ### Semana 6: Geradores y decoradores
 
 **Clase 16:**
+- Trabajo individual: Preparar exposición de Numpy, Scipy o Simpy en grupos.
+
+**Clase 17:**
 - Generadores
 - Comprensión de generadores, de listas y de diccionarios
 
-**Clase 17:**
-- Funciones de orden superior y lambdas.
+**Clase 18:**
+- Exposición tarea Matplotlib
+- Lambdas, Zip, Map, Enumerate.
 - Decoradores.
 
-**Clase 18:**
+### Semana 7: Funciones y recursividad
+
+**Clase 19:**  
+- Ejemplos de generadores
+- Recursividad
+- Ejemplos recursividad
+
+**Clase 20:**
+- Break, continue, for-else
+- Herencia
+- **Tarea:** Implementar un método numérico SIN hacer uso de librerías diferentes a `math` en donde haga uso de recursividad o de ciclos `for` anidados.
+
+**Clase 21:**
+- Herencia múltiple
+- Encapsulación
+- Manejos de excepciones
+- Getters y Setters
+- Atributos y métodos privados
+- Métodos de clase, métodos de instancia y métodos estáticos
+- Ejemplos encapsulación y herencia múltiple
+- Abstracción
+- Creación de clases abstractas
+
+### Semana 8: Examen
+
+**Clase 22:**
+- Exposición tareas
+- Exposición librerías `os` y `sys` con ejemplos de uso
+- Polimorfismo
+- Ejemplos de Polimorfismo
+
+**Clase 23:**
 - Módulos y paquetes.
 - Importación y uso de módulos estándar.
 - Ejercicio práctico: Creación y uso de módulos personalizados.
@@ -148,30 +183,10 @@ FESTIVO
   - Uso de decoradores de manera no trivial
   - Definición de funciones con implementación de un método numérico
   - Uso de *args y **kwargs en Python
-
-### Semana 7: Funciones y recursividad
-
-**Clase 19:**  
-- Exposición de tareas
-
-**Clase 20:**
-- Recursividad
-- Ejemplos recursivos
-- Ejercicios recursividad
-
-**Clase 21:**
-- Introducción a Pandas
-
-### Semana 8: Examen
-
-**Clase 22:**
 - Asesoría con los proyectos y trabajo en clase
 
-**Clase 23:**
-- Sustentación de proyectos
-
 **Clase 24:**
-- Sustentación de proyectos
+- Exposiciones de Numpy, Scipy y Simpy
 
 
 ## [Bibliografía Recomendada](https://1drv.ms/u/s!AvgPrG5g0hS9geYeVJN97X8LEwTkiQ?e=f4NW5x).
