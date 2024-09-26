@@ -12,7 +12,8 @@ papy.funcion_modulo2()
 #funcion_modulo3()
 
 # Cuando se agrega al init todo lo que hay en los modulos
-#papy.funcion_modulo3()
+papy.funcion_modulo3()
 
 # Cuando se agrega en init el modulo pero no su contenido
 #papy.modulo3.funcion_modulo3()
+print(dir(papy))
