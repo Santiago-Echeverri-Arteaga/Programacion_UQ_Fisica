@@ -164,10 +164,9 @@ FESTIVO
 - Abstracción
 - Creación de clases abstractas
 
-### Semana 8: Examen
+### Semana 8: Modulos
 
 **Clase 22:**
-- Exposición tareas
 - Exposición librerías `os` y `sys` con ejemplos de uso
 - Polimorfismo
 - Ejemplos de Polimorfismo
@@ -176,6 +175,15 @@ FESTIVO
 - Módulos y paquetes.
 - Importación y uso de módulos estándar.
 - Ejercicio práctico: Creación y uso de módulos personalizados.
+
+**Clase 24:**
+- Trabajo indeopendiente
+
+### Semana 9: Introducción a manejo de datos
+
+**Clase 25:**
+- Exposiciones de Numpy, Scipy y Simpy
+- Exposición tareas
 - Tarea: Crear una librería con 
   - `__init__.py`
   - Clases con uso de Matplotlib
@@ -183,10 +191,10 @@ FESTIVO
   - Uso de decoradores de manera no trivial
   - Definición de funciones con implementación de un método numérico
   - Uso de *args y **kwargs en Python
-- Asesoría con los proyectos y trabajo en clase
+- Importación de datos con Python, Numpy
 
-**Clase 24:**
-- Exposiciones de Numpy, Scipy y Simpy
-
+**Clase 26:**
+- Introducción a bases de datos
+- SQL, ORM y NoSQL
 
 ## [Bibliografía Recomendada](https://1drv.ms/u/s!AvgPrG5g0hS9geYeVJN97X8LEwTkiQ?e=f4NW5x).
